@@ -1,7 +1,7 @@
 # 5a_Create_Socket_for_HTTP_for_webpage_upload_and_download
 ## AIM :
 To write a PYTHON program for socket for HTTP for web page upload and download
-## Algorithm:
+## Algorithm
 
 1.Start the program.
 <BR>
@@ -15,8 +15,8 @@ To write a PYTHON program for socket for HTTP for web page upload and download
 <BR>
 6.Stop the program
 <BR>
-## Program:
-'''
+## Program 
+```
 import socket
 
 def send_request(host, port, request):
@@ -55,7 +55,7 @@ if __name__ == "__main__":
     download_file(host, port, 'example.txt')
     print("File downloaded successfully.")
 
-'''
+```
 ## OUTPUT:
 ![EX 5 1](https://github.com/SUBBIAH1904/5a_Create_Socket_for_HTTP_for_webpage_upload_and_download/assets/147473604/0348f972-4573-486d-9c27-a0ef6604dd9a)
 
